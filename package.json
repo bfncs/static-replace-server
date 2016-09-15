@@ -1,0 +1,15 @@
+{
+  "name": "static-replace-server",
+  "version": "1.0.0",
+  "description": "Serve static content with simple streaming search-replace",
+  "author": "Marc Loehe <loehe@sipgate.de>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "serve-static": "^1.11.1",
+    "string-replace-middleware": "0.0.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
